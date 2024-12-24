@@ -1,0 +1,84 @@
+
+
+.card-body h3{
+  margin-bottom: 20px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+video, img, canvas{
+    max-width: 100%;
+}
+
+.red{
+  color: red;
+}
+
+.card {
+  margin: 5px; /* Adds spacing between cards */
+  text-align: center;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 300px; /* Uniform height for images */
+  transition: scale 0.5s;
+}
+.card-img-top:hover {
+  scale:1.5;
+  z-index: 100;
+  
+}
+
+.collapse{
+  background-color: steelblue;
+}
+
+.card p {
+  overflow: hidden; /* Hide the overflowing text */
+  max-width: 100%; /* Ensure it fits the card's width */
+  direction: rtl; /* Align the text to the right */
+  height: 200px;
+  
+}
+.modal-body p {
+  direction: rtl;
+}
+.header-name{
+  text-align: center;
+}
+
+.header-bg{
+  background-image: url('https://cyfairanimalhospital.com/wp-content/uploads/2019/04/Cows.jpg');
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:Rubik-Medium;
+  font-size: 5em;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .header-bg{
+    height: 533px;
+    #mishne{
+      text-align: center;
+      font-size: 30px;
+    }
+
+  }
+}
+
+body{
+  background-color:#AFE2F0;
+}
+
+#mishne{
+  text-align: center;
+  font-size: 44px;
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*  .cards-container{*/
+/*    flex-direction: column;*/
+/*  }*/
+/*}*/
